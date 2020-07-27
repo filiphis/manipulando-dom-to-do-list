@@ -167,6 +167,8 @@ body {
 
 .task.done .content {
   text-decoration: line-through;
+  animation-name: doneTask;
+  animation-duration: .2s;
 }
 
 .taskBtn {
@@ -205,4 +207,17 @@ body {
     transform: scale(1);
     opacity: 1;
   }
+}
+
+@keyframes doneTask {
+  0%{
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+
 }
