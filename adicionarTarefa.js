@@ -26,6 +26,7 @@ const criarTarefa = (e) => {
     lista.appendChild(tarefa);
 
     input.value = '';
+    input.focus();
 }
 
 adicionarTarrefa.addEventListener('click', criarTarefa);

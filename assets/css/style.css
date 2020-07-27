@@ -115,7 +115,7 @@ body {
   width: 100%;
 }
 
-.task {
+/* .task {
   background-color: rgba(255, 255, 255, 0.1);
   color: #F6F1D1;
   display: flex;
@@ -124,7 +124,11 @@ body {
   margin-bottom: 0.5rem;
   padding: 1rem 1rem;
   max-width: 35rem;
-}
+  transition: all 2s ;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+} */
 
 .check-button, .delete-button {
   background-color: #F6F1D1;
@@ -170,3 +174,26 @@ body {
 
 }
 
+.task {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #F6F1D1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding: 1rem 1rem;
+  max-width: 35rem;
+  animation-name: addTask;
+  animation-duration: .4s;
+}
+
+@keyframes addTask {
+  from {
+    transform: translateY(-200px) scale(0.7);
+    opacity: 0.9;
+  }
+  to {
+    transform: translateY(0px) scale(1);
+    opacity: 1;
+  }
+}
