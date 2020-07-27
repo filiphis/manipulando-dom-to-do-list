@@ -1,5 +1,5 @@
 # To Do List - Manipulando o DOM 
-> **_Status do projeto:_** Finalizado :white_check_mark:
+> **_Status do projeto:_** Finalizado :heavy_check_mark:
 
 ## Preview
 
