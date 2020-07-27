@@ -41,7 +41,5 @@ Execute o servidor na pasta do projeto:
 live-server
 ```
 
-Acesse a pasta que foi baixada e abra o index.html em seu navegador favorito
-
 Pronto, visualize o projeto :open_mouth: :satisfied:
 
