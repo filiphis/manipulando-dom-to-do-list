@@ -120,8 +120,10 @@ body {
   color: #F6F1D1;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 0.5rem;
-  padding: 1rem 3rem;
+  padding: 1rem 1rem;
+  max-width: 35rem;
 }
 
 .check-button, .delete-button {
@@ -131,6 +133,8 @@ body {
   outline: none;
   border-radius: 2px;
   cursor: pointer;
+  padding: .3rem .4rem ;
+  margin: 5px;
 }
 
 .task.done .check-button {
@@ -153,10 +157,16 @@ body {
 
 .content {
   margin: 0;
+  margin-right: 10px;
+  flex-grow: 1;
 }
 
 .task.done .content {
   text-decoration: line-through;
 }
 
-/*# sourceMappingURL=style.css.map */
+.taskBtn {
+  color: red;
+
+}
+
