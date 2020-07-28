@@ -6,7 +6,7 @@
 Visualize o projeto em: https://filiphis.github.io/manipulando-dom-to-do-list
 
 ![Preview To Do List](./design/to-do-list.png)
-Imagem do projeto final
+
 
 
 
